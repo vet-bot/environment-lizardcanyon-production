@@ -6,7 +6,7 @@ pipeline {
     label "jenkins-maven"
   }
   environment {
-    DEPLOY_NAMESPACE = "jx-1-production"
+    DEPLOY_NAMESPACE = "jx-vet-production"
   }
   stages {
     stage('Validate Environment') {
